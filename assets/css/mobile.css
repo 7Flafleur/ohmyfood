@@ -14,45 +14,73 @@ body{
     margin:0;
 }
 
+.titre-logo{
+    font-family: Shrikhand;
+}
+
+.texte{
+    font-family: Roboto;
+}
+
+/*********HEADER************/
 
 .header{
     background-color: #fff;
     padding: 14px 89px 13px 89px;
 }
 
-
-main{
-    background-color: #F6F6F6;
-    height:86.75%;
-}
-
-
-.footer{
-    background-color: #101010;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 22px 25px;
-}
-
-.header .logo{
-    text-align: center;
-    font-family: Shrikhand;
+.header .titre-logo{
+    text-align: center; 
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.footer .logo{
-    color:  #FFF;
-    font-family: Shrikhand;
+/************BODY***************/
+
+main{
+    background-color: #F6F6F6;
+    height:86.75%;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    gap:17px;
+    align-items: center;
+}
+
+.location p{
+    
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+/***********FOOTER****************/
+
+.footer{
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 25px;
+    gap:16px;
+}
+
+.footer .titre-logo{
+    color:#FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .footer nav{
@@ -60,10 +88,8 @@ main{
     color:#FFF;
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
     font-size: 16px;
     gap: 7px;
-    padding: 0;
     margin-bottom: 0;
     
 
