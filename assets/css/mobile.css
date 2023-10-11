@@ -22,6 +22,7 @@ body{
     font-family: Roboto;
 }
 
+
 /*********HEADER************/
 
 .header{
@@ -30,7 +31,8 @@ body{
     
 }
 
-.header .titre-logo{
+.header_logo{
+    font-family: Shrikhand;
     text-align: center; 
     font-size: 23px;
     font-style: normal;
@@ -61,9 +63,60 @@ main{
 
 }
 
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 50px 20px;
+}
+
+.primarybtn{
+    width:186px;
+    height: 50px;
+    padding:13px 16px;
+    border: none;
+    background-image:linear-gradient(#ff79da,#9356dc) ;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    color:#FFF;
+}
+
+.cta_texte--gros{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.cta_texte{
+    color: #353535;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    
+}
+
+.fonctionnement:not(.fonctionnement_texte){
+    background-color: #fff;
+    padding: 20px;
 
 
+    
 
+}
+
+.fonctionnement_texte{
+
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
 
 
 
@@ -79,7 +132,8 @@ main{
     gap:16px;
 }
 
-.footer .titre-logo{
+.footer_logo{
+    font-family: Shrikhand;
     color:#FFF;
     font-size: 18px;
     font-style: normal;
