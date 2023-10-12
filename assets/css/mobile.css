@@ -22,9 +22,6 @@ body{
     font-family: Roboto;
 }
 
-img{
-    object-fit: cover;
-}
 
 /*********HEADER************/
 
@@ -47,7 +44,7 @@ img{
 
 main{
     background-color: #F6F6F6;
-    height:91%;
+    
 }
 
 .location{
@@ -110,7 +107,7 @@ main{
 .fonctionnement:not(.fonctionnement_texte){
     background-color: #fff;
     padding: 20px;
-    height: 440px;
+    
 
 }
 
@@ -126,7 +123,7 @@ line-height: normal;
 .fonctionnement-btn-container{
     display: flex;
     flex-direction: column;
-    height:100%;
+    
 }
 
 
@@ -136,7 +133,8 @@ line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:72.4px;
+    
+    
     background-color:#F6F6F6 ; 
     border-radius: 20px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
@@ -146,8 +144,15 @@ line-height: normal;
 
 }
 
-.restaurant_cards{
-    height: auto;
+.restaurants{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.restaurant_card_container{
+    
     margin-right: 18px;
     margin-left: 17px; 
     display: flex;
@@ -156,13 +161,32 @@ line-height: normal;
 
 }
 
-.restaurant_cards a{
+.restaurants a{
     height:23%;
     padding: 18px 0 18px 0;
     border-radius: 15px;
     border:solid 1px #353535;
 
 }
+
+
+.restaurant_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_text_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.card_icon{
+    width:22px ;
+    height:21px;
+}
+
 
 
 /***********FOOTER****************/
