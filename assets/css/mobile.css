@@ -186,7 +186,8 @@ line-height: normal;
 .restaurants a{
     height:23%;
     border-radius: 15px;
-    border:solid 1px #353535;
+    text-decoration: none;
+    
 
 }
 
@@ -200,20 +201,34 @@ line-height: normal;
 
 .restaurant_card img{
     height: 70%;
+    border-radius:15px 15px 0 0 ;
 }
 
 .card_text_container{
     display: flex;
-    height:25%;
+    background-color:#fff;
+    height:30%;
     justify-content: space-between;
     padding: 1em;
     align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.card_text {
+    line-height: 0.3em;
+    
+
 }
 
 .card_icon{
     width:22px ;
     height:21px;
 }
+
+.card_icon:hover{
+    background-image:linear-gradient( #9356dc,#ff79da) ;
+}
+
 
 
 
