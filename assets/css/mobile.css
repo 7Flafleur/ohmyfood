@@ -26,6 +26,7 @@ body {
 
 /******LOADER********/
 .loader {
+  opacity:0;
   align-items: center;
   background:#fff;
   display: flex;
@@ -51,8 +52,9 @@ body {
 }
 
 @keyframes animate {
-    0%{opacity: 1;}
+  0% {opacity: 1;}
   100%{opacity: 0;}
+  
 }
 
 @keyframes spin {
@@ -60,6 +62,8 @@ body {
   100% { transform: rotate(360deg); }
   
 }
+
+
 
 /*********HEADER************/
 
