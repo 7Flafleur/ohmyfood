@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+:root{
+  --heart:linear-gradient(#ff79da, #9356dc)
+}
+
+
 body {
   width: 100%;
   height: 100vh;
@@ -17,6 +22,43 @@ body {
 
 .titre-logo {
   font-family: Shrikhand;
+}
+
+/******LOADER********/
+.loader {
+  align-items: center;
+  background:#fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition:  0.3s linear;
+  width: 100%;
+  z-index: 9999;
+  animation:animate 3s linear;
+
+}
+
+.loader img{
+  height: 250px;
+  width: 250px;
+  animation: spin 2s linear ;
+  animation-duration: 3s;
+}
+
+@keyframes animate {
+    0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@keyframes spin {
+  0%{ transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  
 }
 
 /*********HEADER************/
@@ -90,10 +132,9 @@ main {
   color: #fff;
 }
 
-.primarybtn:hover{
-    background-image: linear-gradient(#fdb5e9, #b286e7);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.35);
-
+.primarybtn:hover {
+  background-image: linear-gradient(#fdb5e9, #b286e7);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .section_title {
@@ -215,15 +256,31 @@ main {
   line-height: 0.3em;
 }
 
+.heart .filled{
+  display: none;
+}
+
 .heart_icon {
   width: 22px;
   height: 21px;
   fill: none;
-  transition-delay: 5s;
+  
 }
 
-.heart_icon:hover{
-    fill:greenyellow;
+.heart:hover .filled {
+  display: block;
+  animation: fadein 1s;
+}
+
+.heart:hover .heart_icon{
+  display:none
+}
+
+@keyframes fadein {
+  0%{opacity: 0;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
+  
 }
 
 /***********FOOTER****************/
