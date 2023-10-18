@@ -215,9 +215,15 @@ main {
   line-height: 0.3em;
 }
 
-.card_icon {
+.heart_icon {
   width: 22px;
   height: 21px;
+  fill: none;
+  transition-delay: 5s;
+}
+
+.heart_icon:hover{
+    fill:greenyellow;
 }
 
 /***********FOOTER****************/
