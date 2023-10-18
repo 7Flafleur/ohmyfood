@@ -8,9 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-:root{
-  --heart:linear-gradient(#ff79da, #9356dc)
-}
 
 
 body {
@@ -53,7 +50,7 @@ body {
 
 @keyframes animate {
   0% {opacity: 1;}
-  100%{opacity: 0;}
+  100%{display:none;}
   
 }
 
