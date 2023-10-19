@@ -1,3 +1,7 @@
+@media screen and (max-width:768px)
+
+{
+
 html {
   box-sizing: border-box; /*style par défaut: les hauteurs et largeurs s'appliquent sur la totalité de l'élément */
 }
@@ -155,6 +159,7 @@ main {
 
 .fonctionnement:not(.fonctionnement_texte) {
   background-color: #fff;
+  padding-top: 20px;
   padding-right: 20px;
   padding-left: 32px;
 }
@@ -162,11 +167,12 @@ main {
 .fonctionnement-btn-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .fonctionnement_circle {
   position: absolute;
-  left: 20px;
+  left: -12px;
   border-radius: 50%;
   background: #9356dc;
   height: 24px;
@@ -190,6 +196,7 @@ main {
   width: 322.486px;
   height: 72.379px;
   flex-shrink: 0;
+  position: relative;
 }
 
 .restaurants {
@@ -321,4 +328,7 @@ main {
 
 .footericon {
   padding-right: 7px;
+}
+
+
 }
