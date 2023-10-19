@@ -1,7 +1,5 @@
 /*@media screen and (max-width:768px)*/
 
-
-
 html {
   box-sizing: border-box; /*style par défaut: les hauteurs et largeurs s'appliquent sur la totalité de l'élément */
 }
@@ -11,8 +9,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-
 
 body {
   width: 100%;
@@ -29,7 +25,7 @@ body {
 .loader {
   display: flex;
   align-items: center;
-  background:#fff;
+  background: #fff;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -41,42 +37,48 @@ body {
   right: 0;
   z-index: -2;
   opacity: 0;
-  animation:animate 3s linear;
-
-
+  animation: animate 3s linear;
 }
 
-.loader img{
+.loader img {
   height: 250px;
   width: 250px;
-  animation: spin 3s linear ;
-  
+  animation: spin 3s linear;
 }
 
 @keyframes animate {
-  0% {z-index:1;opacity: 1;}
-  50%{opacity: 0.5;}
-  100%{z-index: 2;opacity: 0;}
-  
+  0% {
+    z-index: 1;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    z-index: 2;
+    opacity: 0;
+  }
 }
 
 @keyframes spin {
-  0%{ transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-  
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.rest{
+.rest {
   background-color: #008766;
   position: absolute;
   top: 300px;
   left: 700px;
 }
 
-.rest:hover{
+.rest:hover {
   background-color: #ff79da;
 }
-
 
 /*********HEADER************/
 
@@ -279,7 +281,7 @@ main {
   line-height: 0.3em;
 }
 
-.heart .filled{
+.heart .filled {
   display: none;
 }
 
@@ -287,7 +289,6 @@ main {
   width: 22px;
   height: 21px;
   fill: none;
-  
 }
 
 .heart:hover .filled {
@@ -295,15 +296,20 @@ main {
   animation: fadein 1s;
 }
 
-.heart:hover .heart_icon{
-  display:none
+.heart:hover .heart_icon {
+  display: none;
 }
 
 @keyframes fadein {
-  0%{opacity: 0;}
-  50%{opacity: 0.5;}
-  100%{opacity: 1;}
-  
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /***********FOOTER****************/
@@ -344,36 +350,3 @@ main {
 .footericon {
   padding-right: 7px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

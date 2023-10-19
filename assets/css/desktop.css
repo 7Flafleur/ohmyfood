@@ -1,99 +1,78 @@
-@media screen and (min-width:1025px) {
+@media screen and (min-width: 1025px) {
+  .header {
+    padding: 31.8px 30px;
+    margin-bottom: -5px;
+  }
 
+  .header_logo {
+    font-size: 38px;
+  }
 
-    .header{
-        padding: 31.8px 30px;
-        margin-bottom: -5px;
-        
-    }
+  .cta {
+    margin-bottom: -10px;
+  }
 
-    .header_logo{
-        font-size: 38px;
-    }
+  .cta .section_title {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
 
+  .cta .primarybtn {
+    margin-top: 17px;
+    width: 218px;
+    font-size: 16px;
+  }
 
+  .fonctionnement {
+    padding: 20px 180px 30px 180px;
+  }
 
-    .cta{
-        margin-bottom: -10px;
-    }
+  .fonctionnement-btn-container {
+    margin-top: -5px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+  }
 
-    .cta .section_title{
-        font-size: 40px;
-        margin-top: -5px;
-        margin-bottom: 10px;
-    }
+  .restaurants {
+    padding: 10px 180px 30px 180px;
+  }
 
-    .cta .primarybtn{
-        margin-top: 17px;
-        width: 218px;
-        font-size: 16px;
-    }
+  .restaurants h2 {
+    margin-bottom: 20px;
+  }
 
-    .fonctionnement{
-        padding:20px 180px 30px 180px;
-        
-    }
+  .restaurant_card_container {
+    padding: 0;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 100px;
+  }
 
-    .fonctionnement-btn-container {
-        margin-top: -5px;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 16px;
-        
-    }
+  .restaurants a {
+    width: 45%;
+    height: 45%;
+    margin-top: -50px;
+  }
 
-    .restaurants{
-        padding: 10px 180px 30px 180px;
-    }
+  .footer {
+    height: 114px;
+    flex-direction: row-reverse;
+    gap: 100px;
+    align-items: flex-end;
+    padding: 30px 68px;
+  }
 
-    .restaurants h2{
-        margin-bottom: 20px;
-    }
+  .footer nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+  }
 
-    .restaurant_card_container{
-        padding: 0;
-        margin-top: 50px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        gap:100px;
-        
-    }
-
-    .restaurants a{
-        width: 45%;
-        height: 45%;
-        margin-top: -50px;
-    }
-
-    .footer{
-        height:114px;
-        flex-direction: row-reverse;
-       gap:100px;
-       align-items: flex-end;
-        padding: 30px 68px;
-    }
-
-    .footer nav{
-        flex-direction: row;
-        justify-content: flex-end;
-        gap:20px;
-    }
-  
-    .footericon{
-        padding-right: 0;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    
+  .footericon {
+    padding-right: 0;
+  }
 }
