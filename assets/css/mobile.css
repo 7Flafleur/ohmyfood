@@ -269,7 +269,7 @@ main {
 }
 
 .heart:hover .filled {
-  display: block;
+  display: inline;
   animation: fadein 1s;
 }
 
