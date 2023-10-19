@@ -27,7 +27,7 @@ body {
 
 /******LOADER********/
 .loader {
-  
+  display: flex;
   align-items: center;
   background:#fff;
   display: flex;
@@ -169,7 +169,9 @@ main {
   font-weight: 300;
 }
 
-.fonctionnement:not(.fonctionnement_texte) {
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   padding-top: 20px;
   padding-right: 20px;
@@ -240,6 +242,7 @@ main {
 .restaurant_card img {
   height: 70%;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 .badge {

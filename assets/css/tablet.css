@@ -1,9 +1,29 @@
 @media screen and (min-width:768px) {
 
+/*LOADER higher*/
 
+.loader{
+    align-items:center;
+}
 
+.loader img{
+    position: inherit;
+    top: 200px;
+}
 
+.fonctionnement{
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.fonctionnement-btn-container {
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ justify-self: center;
+    
+}
 
 
 
