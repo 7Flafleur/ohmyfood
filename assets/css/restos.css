@@ -14,23 +14,23 @@ html {
     position: relative;
 }
 
+.top{
+width:100%;
+object-fit: cover;
+}
+
 .menu{
     background:#f6f6f6;
     border-radius:  25px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
     padding:  0 17px;
     position: relative;
     top:-30px;
-
-    overflow:hidden;
-    
+    overflow:hidden;   
 }
 
 .section_title{
     display: flex;
-    gap: 45px; 
+    justify-content: space-between;
     align-items: center;
     margin-top: 0;
 
@@ -43,11 +43,41 @@ font-size: 28px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
+margin-bottom: 0;
 }
 
 .like {
     width: 22px; 
     height: 21px;
     
+}
+.menu_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+
+}
+
+.menu_card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+h4{
+   margin: 0;
+}
+
+.des{
+    display: inline;
+    flex-direction: row;
+    white-space: nowrap;
 }
