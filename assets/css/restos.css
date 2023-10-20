@@ -1,0 +1,53 @@
+
+html {
+    box-sizing: border-box; /*style par défaut: les hauteurs et largeurs s'appliquent sur la totalité de l'élément */
+  }
+  
+  *,                                /*tous les éléments doivent hériter les valeurs box-sizing de leur parent*/
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+/*********nécessaire?************/  
+
+.restos_main{
+    position: relative;
+}
+
+.menu{
+    background:#f6f6f6;
+    border-radius:  25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding:  0 17px;
+    position: relative;
+    top:-30px;
+
+    overflow:hidden;
+    
+}
+
+.section_title{
+    display: flex;
+    gap: 45px; 
+    align-items: center;
+    margin-top: 0;
+
+    
+}
+
+.section_title h1{
+display: inline;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.like {
+    width: 22px; 
+    height: 21px;
+    
+}
