@@ -241,9 +241,13 @@ main {
   padding-top: 0;
 }
 
+.card_img{
+  border-radius: 15px 15px 0 0;
+}
+
 .restaurant_card img {
   height: 70%;
-  border-radius: 15px 15px 0 0;
+  
   object-fit: cover;
 }
 
