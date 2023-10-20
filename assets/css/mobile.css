@@ -43,7 +43,7 @@ body {
 .loader img {
   height: 250px;
   width: 250px;
-  animation: spin 3s linear;
+  animation: spin 4s linear;
 }
 
 @keyframes animate {
@@ -51,9 +51,7 @@ body {
     z-index: 1;
     opacity: 1;
   }
-  50% {
-    opacity: 0.5;
-  }
+
   100% {
     z-index: 2;
     opacity: 0;
@@ -285,26 +283,39 @@ main {
   line-height: 0.3em;
 }
 
-.heart .filled {
-  display: none;
+.heart{
+  position: relative;
 }
 
-.heart_icon {
+.filled {
+  opacity:0;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+/*.heart_icon {
   width: 22px;
   height: 21px;
   fill: none;
-}
+}*/
 
 .heart:hover .filled {
-  display: inline;
-  animation: fadein 1s;
+  opacity: 1;
+  
 }
 
 .heart:hover .heart_icon {
-  display: none;
+  opacity: 0;
+  transition: opacity 1s ease;
+
 }
 
-@keyframes fadein {
+/*@keyframes fadein {
   0% {
     opacity: 0;
   }
@@ -314,7 +325,7 @@ main {
   100% {
     opacity: 1;
   }
-}
+}*/
 
 /***********FOOTER****************/
 
