@@ -1,4 +1,10 @@
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px ) /*and (max-width:1440px)*/ {
+  body{
+    margin:auto;
+    max-width: 1440px;
+    
+  }
+  
   .header {
     padding: 31.8px 30px;
     margin-bottom: -5px;
@@ -24,17 +30,24 @@
     font-size: 16px;
   }
 
-  .fonctionnement {
-    padding: 20px 180px 30px 180px;
+  .fonctionnement{
+    display: block;
+    padding: 50px 180px ;
+    
   }
 
-  .fonctionnement-btn-container {
-    margin-top: -5px;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 16px;
-    gap: 40px;
+  .fonctionnement .section_title{
+    align-items: flex-start;
   }
+
+  .fonctionnement-btn-container{
+    
+    
+  }
+
+
+  
+
 
   .restaurants {
     padding: 10px 180px 30px 180px;
