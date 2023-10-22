@@ -21,6 +21,10 @@ body {
   font-family: Shrikhand;
 }
 
+a{
+  color: #101010;
+}
+
 /******LOADER********/
 .loader {
   display: flex;
@@ -110,6 +114,7 @@ main {
   height: 50px;
   align-items: center;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15) inset;
+  flex-grow: 0;
 }
 
 .location_search::placeholder {
@@ -283,9 +288,7 @@ main {
   line-height: 0.3em;
 }
 
-.heart{
-  position: relative;
-}
+
 
 .filled {
   opacity:0;
@@ -298,11 +301,11 @@ main {
   transition: opacity 2s ease-in-out;
 }
 
-/*.heart_icon {
+.heart_icon {
   width: 22px;
   height: 21px;
   fill: none;
-}*/
+}
 
 .heart:hover .filled {
   opacity: 1;
