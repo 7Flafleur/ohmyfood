@@ -47,7 +47,7 @@ main {
     height: 50px;
     padding: 13px 16px;
     border: none;
-    background-image: linear-gradient(#ff79da, #9356dc);
+    background-image: linear-gradient(#ff79da, rgb(147, 86, 220));
     border-radius: 25px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     color: #fff;
@@ -182,4 +182,11 @@ main {
   
   .card_text {
     line-height: 0.3em;
+  }
+
+  @media screen and (min-width:1024px) {
+    .cta{
+      padding-top: 70px;;
+    }
+    
   }
