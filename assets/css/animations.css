@@ -47,16 +47,14 @@
 
 /**BOUTON Explorer****/
 
-.primarybtn{
-  transition: background-image 1s ease-in;
+.primarybtn:hover {
+  background-image: linear-gradient(#fdb5e9, #b286e7);
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.45);
+
 }
 
-.primarybtn:hover {
-    background-image: linear-gradient(#fdb5e9, #b286e7);
-    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.45);
-  
-  }
-  
+
+
 
 
 /************ANIMATION COEUR*/
@@ -203,25 +201,25 @@ h4{
     animation-fill-mode: backwards;
   }
 
- .course1{
+ #course1{
 
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 5s;
+    animation-delay: 3.5s;
     animation-fill-mode: backwards;
   }
 
-  .course2{
+  #course2{
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 6s;
+    animation-delay: 4s;
     animation-fill-mode: backwards;
   }
 
-  .course3{
+  #course3{
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 7s;
+    animation-delay: 4.5s;
     animation-fill-mode: backwards;
   }
    
