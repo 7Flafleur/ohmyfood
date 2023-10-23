@@ -1,20 +1,4 @@
 
-/*********HEADER************/
-
-.header {
-  background-color: #fff;
-  padding: 14px 89px 13px 89px;
-}
-
-.header_logo {
-  font-family: Shrikhand;
-  text-align: center;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 /************BODY***************/
 
 main {
@@ -201,42 +185,3 @@ main {
   line-height: 0.3em;
 }
 
-
-/***********FOOTER****************/
-
-.footer {
-  height: auto;
-  background-color: #101010;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 22px 25px;
-  gap: 16px;
-}
-
-.footer_logo {
-  font-family: Shrikhand;
-  color: #fff;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer nav {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  gap: 7px;
-  margin-bottom: 0;
-}
-
-.footer nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footericon {
-  padding-right: 7px;
-}

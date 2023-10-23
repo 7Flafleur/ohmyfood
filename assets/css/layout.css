@@ -1,3 +1,6 @@
+@media  screen and (min-width:350px)  {
+  
+
 
 /*********HEADER************/
 
@@ -56,73 +59,18 @@
     padding-right: 7px;
   }
   
+}
 
-  @media screen and (min-width: 1025px ) /*and (max-width:1440px)*/ {
+  /*TABLETTE*/
 
-    
-    .header {
-      padding: 31.8px 30px;
-      margin-bottom: -5px;
-    }
+@media screen and (min-width:768px) {
   
-    .header_logo {
-      font-size: 38px;
-    }
-  
-  
-    .cta {
-      margin-bottom: -10px;
-    }
-  
-  
-  
-    .cta .section_title {
-      font-size: 40px;
-      margin-top: -5px;
-      margin-bottom: 10px;
-    }
-  
-    .cta .primarybtn {
-      margin-top: 17px;
-      width: 218px;
-      font-size: 16px;
-    }
-  
-    .fonctionnement{
-      display: block;
-      padding: 50px 180px ;
-      
-    }
-  
-    .fonctionnement .section_title{
-      align-items: flex-start;
-    }
-
-    
+}
 
 
-  .restaurants {
-    padding: 10px 180px 30px 180px;
-  }
+/*DESKTOP*/
 
-  .restaurants h2 {
-    margin-bottom: 20px;
-  }
-
-  .restaurant_card_container {
-    padding: 0;
-    margin-top: 50px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 100px;
-  }
-
-  .restaurants a {
-    width: 45%;
-    height: 45%;
-    margin-top: -50px;
-  }
+@media screen and (min-width:1025px) {
 
   .footer {
     height: 114px;
