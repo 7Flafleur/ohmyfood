@@ -210,32 +210,33 @@
     
   }
 /*Apparence des menus*/
-  /*.menu {
+  .menu {
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-fill-mode: backwards;
   }
 
- #course1{
+
+ .menu .entrees{
 
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 3.5s;
+    animation-delay: 1.5s;
     animation-fill-mode: backwards;
   }
 
-  #course2{
+  .plats{
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-fill-mode: backwards;
   }
 
-  #course3{
+  .desserts{
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 4.5s;
+    animation-delay: 2.5s;
     animation-fill-mode: backwards;
   }
    
@@ -246,4 +247,3 @@
   100% { opacity: 1; }
 }
 
-*/

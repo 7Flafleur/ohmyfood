@@ -72,6 +72,7 @@ main {
     font-weight: 300;
   }
   
+  
   .fonctionnement {
     display: flex;
     flex-direction: column;
@@ -186,7 +187,7 @@ main {
     line-height: 0.3em;
   }
 
-  @media screen and (min-width:1024px) {
+  @media screen and (min-width:1025px) {
     .cta{
       padding-top: 70px;;
     }
