@@ -1,30 +1,52 @@
 /*@media screen and (max-width:768px)*/
 
 html {
-    box-sizing: border-box; /*style par défaut: les hauteurs et largeurs s'appliquent sur la totalité de l'élément */
-  }
-  
-  *,                                /*tous les éléments doivent hériter les valeurs box-sizing de leur parent*/
+  box-sizing: border-box; /*style par défaut: les hauteurs et largeurs s'appliquent sur la totalité de l'élément */
+}
+
+*,                                /*tous les éléments doivent hériter les valeurs box-sizing de leur parent*/
   *::before,
   *::after {
-    box-sizing: inherit;
-    font-family: Roboto;
-  }
+  box-sizing: inherit;
+  font-family: Roboto;
+}
 
-  body {
-    width: 100%;
-    height: 100vh;
-    max-width: 1440px;
-    margin: auto;
-    
-  }
-  
-  .titre-logo {
-    font-family: Shrikhand;
-  }
-  
-  a{
-    color: #101010;
-  }
-  
-  
+body {
+  width: 100%;
+  height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.titre-logo {
+  font-family: Shrikhand;
+}
+
+a {
+  color: #101010;
+}
+
+.menu h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.ligne {
+  margin-top: -8px;
+  width: 40px;
+  height: 3px;
+}
+
+.menu_container span {
+  text-overflow: ellipsis;
+  font-size: 15, 6px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}

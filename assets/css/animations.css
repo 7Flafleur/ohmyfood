@@ -131,10 +131,9 @@
     }
   }*/
   
-h4{
-  display: inline;
- 
-}
+
+
+/*Coche menu*/
 
 .tog{
   display: flex;
@@ -200,7 +199,7 @@ h4{
   }
 
 
-  /* Rounded sliders */
+ 
   .slider.round {
     border-radius: 34px;
     
@@ -210,11 +209,11 @@ h4{
     border-radius: 50%;
     
   }
-
-  .menu {
+/*Apparence des menus*/
+  /*.menu {
     animation-duration: 0.75s;
     animation-name: animate-fade;
-    animation-delay: 3s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
   }
 
@@ -246,3 +245,5 @@ h4{
   50%{opacity: 0.5;}
   100% { opacity: 1; }
 }
+
+*/
