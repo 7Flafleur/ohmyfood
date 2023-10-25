@@ -136,78 +136,6 @@
 /*Coche menu*/
 
 
-/*
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    top: 3px;
-    
-  }
-
-  .switch:hover{
-  opacity:1;
-  }
-
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(192, 171, 218);
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 17px;
-    width: 17px;
-    right: 2px; 
-    bottom: 1px;
-    background-color: #ff79da;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: rgb(147, 86, 220);
-    
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(147, 86, 220);
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(-14px);
-  }
-
-
- 
-  .slider.round {
-    border-radius: 34px;
-    
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-    
-  }
-*/
-
   label {
     width:50px;
     height:25px;
@@ -215,12 +143,12 @@
     display: block;
     bottom:15px;
     right: 25px;;
-  background:#b286e7 ;
+    background:linear-gradient(#fdb5e9, #b286e7) ;
     border-radius: 200px;
     
     cursor: pointer;
   }
-  
+  /*bille ç l'intérieur de la coche*/
   label:after {
     content: "";
     width:18px;
@@ -233,14 +161,26 @@
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   }
 
-
+/*checkbox invisible qui permet de déterminer si la coche à été cliquée*/
   input {
     width: 0;
     height: 0;
     visibility: hidden;
   }
 
+  /*au clic, la couleur de l'intérieur de la couche change*/
+  input:checked + label {
+    background: linear-gradient(#ff79da, rgb(147, 86, 220));
+  }
 
+  /*au clic, la bille se déplace de droite à gauche*/
+  input:checked + label:after {
+    transform: translateX(-21px);
+  }
+
+  label, label:after{
+    transition:500ms
+  }
 
 /*Apparence des menus*/
 
