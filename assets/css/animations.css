@@ -135,18 +135,15 @@
 
 /*Coche menu*/
 
-.tog{
-  display: flex;
-  gap:10px;
-}
+
 
   .switch {
     position: relative;
     display: inline-block;
-    width: 35px;
-    height: 12px;
+    width: 45px;
+    height: 20px;
     top: 3px;
-    opacity: 0;
+    
   }
 
   .switch:hover{
@@ -174,9 +171,9 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 10px;
-    width: 10px;
-    right: 5px; 
+    height: 17px;
+    width: 17px;
+    right: 2px; 
     bottom: 1px;
     background-color: #ff79da;
     -webkit-transition: .4s;
@@ -209,6 +206,7 @@
     border-radius: 50%;
     
   }
+  
 /*Apparence des menus*/
   .menu {
     animation-duration: 0.75s;
