@@ -73,75 +73,60 @@ html {
   border-radius: 25px;
 }
 
-
 /*cartes menu*/
 
-.plt:hover .des{
-  width:85%;
+.plt:hover .des {
+  width: 85%;
 }
 
-.plt:hover .tog{
-  opacity:1;
+.plt:hover .tog {
+  opacity: 1;
 }
 
-
-.des{
+.des {
   display: flex;
   flex-direction: column;
   /*border: 1px solid rgb(255, 0, 234);*/
   white-space: nowrap;
-  width:100%;
+  width: 100%;
   z-index: 1;
-  
-
 }
 
-.det{
+.det {
   display: flex;
   /*border: 2px solid #98ff79;*/
   justify-content: space-between;
-  gap:80px;
+  gap: 80px;
 }
 
-.plt{
+.plt {
   position: relative;
   /*border: 1px solid rgb(7, 25, 104);*/
   z-index: 1;
-  width:100%;
-  
+  width: 100%;
 }
 
-.tog{
+.tog {
   display: inline;
   position: absolute;
-  right:0;
+  right: 0;
   top: 8px;
   opacity: 0;
-
-  
-
 }
 
-  h4{
-      display: inline;
-      margin:0;
-  }
+h4 {
+  display: inline;
+  margin: 0;
+}
 
-  h4 ,span{
-      overflow:hidden;
-      display: inline;
-      text-overflow: ellipsis;  
-  }
-
-
- 
-
-
+h4,
+span {
+  overflow: hidden;
+  display: inline;
+  text-overflow: ellipsis;
+}
 
 /*avec coche*/
-
-
-
 
 .primarybtn {
   align-self: center;
