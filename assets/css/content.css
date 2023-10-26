@@ -233,6 +233,7 @@ main {
 
     }
 
+
     .fonctionnement-btn-container{
       flex-direction: row;
       justify-content: space-around;
@@ -260,6 +261,7 @@ main {
 
   .cta {
     margin-bottom: -10px;
+    padding-top: 30px;
   }
 
 
@@ -277,8 +279,10 @@ main {
   }
 
   .fonctionnement{
-    display: block;
-    padding: 50px 180px ;
+    /*display: block;*/
+    
+    padding: 35px 180px 40px 180px ;
+    align-items: flex-start;
     
   }
 
@@ -299,12 +303,11 @@ main {
   }
   
 
-  .fonctionnement .section_title{
-    align-items: flex-start;
-  }
+ 
 
   .restaurants {
     padding: 10px 180px 30px 180px;
+    align-items: flex-start;
   }
 
   .restaurants h2 {
@@ -312,7 +315,7 @@ main {
   }
 
   .restaurant_card_container {
-    padding: 0;
+    padding: 5px 0 0 0 ;
     margin-top: 50px;
     flex-direction: row;
     flex-wrap: wrap;

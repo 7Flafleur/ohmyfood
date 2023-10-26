@@ -13,6 +13,8 @@
 
 */
 
+@media screen and (min-width:350px) {
+  
 
 
 .loader {
@@ -132,6 +134,18 @@
   }*/
   
 
+/*CARTES MENU*/
+
+.plt:hover .des {
+  width: 70%;
+  transition-duration: .25s;
+}
+
+.plt:hover .tog {
+  opacity: 1;
+  transition-duration: .25s;
+}
+
 
 /*Coche menu*/
 
@@ -223,3 +237,15 @@
 }
 
 */
+
+}
+
+@media screen and(min-width:1025px) {
+
+  .plt:hover .des {
+    width: 90%;
+    transition-duration: .25s;
+  }
+  
+}
+
