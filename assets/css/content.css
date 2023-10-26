@@ -203,6 +203,25 @@ main {
     height: 100px;
   }
 
+  .footer {
+    height: 114px;
+    flex-direction: row-reverse;
+    gap: 100px;
+    align-items: flex-end;
+    padding: 30px 68px;
+  }
+
+  .footer nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  .footericon {
+    padding-right: 0;
+  }
+
+
 
 }
 
@@ -267,11 +286,6 @@ main {
     align-items: flex-start;
   }
 
-
-
-  
-
-
   .restaurants {
     padding: 10px 180px 30px 180px;
   }
@@ -293,24 +307,6 @@ main {
     width: 45%;
     height: 45%;
     margin-top: -50px;
-  }
-
-  .footer {
-    height: 114px;
-    flex-direction: row-reverse;
-    gap: 100px;
-    align-items: flex-end;
-    padding: 30px 68px;
-  }
-
-  .footer nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 20px;
-  }
-
-  .footericon {
-    padding-right: 0;
   }
 
 
