@@ -13,10 +13,8 @@
 
 */
 
-@media screen and (min-width:350px) {
+@media screen and (min-width:250px) /*and (max-width:768px)*/ {
   
-
-
 .loader {
     display: flex;
     align-items: center;
@@ -240,7 +238,7 @@
 
 }
 
-@media screen and(min-width:1025px) {
+@media screen and(min-width:1025px) /*and (max-width:1441px)*/ {
 
   .plt:hover .des {
     width: 90%;
