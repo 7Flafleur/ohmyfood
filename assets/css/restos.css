@@ -10,6 +10,21 @@ html {
   box-sizing: inherit;
 }
 /*********nécessaire?************/
+.header{
+  position:relative;
+
+}
+
+.arrow-left{
+  display: inline;
+  width: 25px;
+  height: 25px;
+  position:absolute;
+  left:14px;
+  top: 21px;
+
+
+}
 
 .restos_main {
   position: relative;
@@ -130,6 +145,15 @@ span {
 }
 
 @media screen and (min-width: 1025px) /* and (max-width:1441px)*/ {
+
+
+
+
+  .arrow-left{
+    top:45px;
+    left:25px;
+  }
+
   .menu {
     width: 73%;
     margin: auto;

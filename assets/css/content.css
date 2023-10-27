@@ -273,7 +273,8 @@ main {
   .cta .primarybtn {
     margin-top: 17px;
     width: 194px;
-    font-size: 16px;
+    font-size: 14px;
+    white-space: nowrap;
   }
 
   .fonctionnement{
