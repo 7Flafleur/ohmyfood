@@ -80,6 +80,7 @@ main {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 32px;
+    width: 100%;
   }
   
   .fonctionnement-btn-container {
@@ -234,8 +235,10 @@ main {
 
     .fonctionnement-btn-container{
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       gap: 50px;
+      padding: 0 10px;
+      width: 100%;
     }
     
 
@@ -295,7 +298,7 @@ main {
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    width: 322.486px;
+    width: 30%;
     height: 72.379px;
     flex-shrink: 0;
     position: relative;
@@ -307,6 +310,7 @@ main {
   .restaurants {
     padding: 10px 180px 30px 180px;
     align-items: flex-start;
+    width:100%;
   }
 
   .restaurants h2 {
@@ -314,22 +318,26 @@ main {
   }
 
   .restaurant_card_container {
+    gap:10%;
     padding: 5px 0 0 0 ;
-    margin-top: 50px;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 100px;
+    justify-content: space-evenly;
+    width:100%;
+
+    
   }
 
   .restaurants a {
     width: 45%;
     height: 45%;
-    margin-top: -50px;
+    
+    margin-bottom: 60px;
+    
   }
 
 
-
+ 
   }
 
   
