@@ -1,0 +1,59 @@
+
+@import url(style.css);
+
+
+.menu_card_container{
+    position:relative;
+    border: dotted 2px blue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.plt{
+    /*border: solid 2px red;*/
+    pointer-events: none;
+}
+
+.menu_card:active {
+    width: 70%;
+    
+}
+
+
+
+.under{
+    position:relative;
+    background-color: aquamarine;
+    opacity: 0.5; 
+    height: 100%;
+    width:100%;
+    
+
+}
+
+.mc{
+
+    padding: 15px;    
+    border-radius: 25px;
+    position: absolute;
+    
+    
+}
+
+.menu_card{
+
+    border: dashed 2px red;
+    background-color: #fff;
+    opacity:1;
+    z-index: 1;
+    
+}
+
+.chkbox{
+    position:relative;
+    top: 20px;
+    right: 25px;
+}
+
