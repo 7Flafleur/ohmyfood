@@ -134,69 +134,15 @@
 
 /*CARTES MENU*/
 
-/*.menu_card:hover {
-  width: 70%;
-  transition-duration: .25s;
-}*/
-
-
-
-/*.plt:hover .tog {
-  opacity: 1;
-  background-color: #99E2D0;
-  transition-duration: .25s;
-  height: 100%;
-  
-}*/
-
-
 /*Coche menu*/
 
 
-  .label {
-    width:50px;
-    height:25px;
-    position: relative;
-    display: block;
-    bottom:15px;
-    right: 25px;;
-    background:linear-gradient(#fdb5e9, #b286e7) ;
-    border-radius: 200px;
-    
-    cursor: pointer;
-  }
-  /*bille ç l'intérieur de la coche*/
-  .label:after {
-    content: "";
-    width:18px;
-    height: 18px;
-    position: absolute;
-    top:3px;
-    right:5px;
-    background: #99E2D0;
-    border-radius: 180px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
-  }
+.menu_card:hover {
+  width: 75%;
+  border-radius: 25px 0 0 25px;
+  
+}
 
-/*checkbox invisible qui permet de déterminer si la coche à été cliquée*/
-  .input {
- 
-    
-  }
-
-  /*au clic, la couleur de l'intérieur de la couche change*/
-  /*.input:checked + .label {
-    background: linear-gradient(#ff79da, rgb(147, 86, 220));
-  }
-
-  /*au clic, la bille se déplace de droite à gauche*/
- /* .input:checked + .label:after {
-    transform: translateX(-21px);
-  }*//*
-
-  .label, .label:after{
-    transition:500ms
-  }*/
 
 /*Apparence des menus*/
 
@@ -242,17 +188,17 @@
 
 }
 
-@media screen and(min-width:1025px) /*and (max-width:1441px)*/ {
-/*
-  .plt:hover  {
+@media screen and (min-width:1025px) /*and (max-width:1441px)*/ {
+
+  .menu_card:hover {
     width: 90%;
-    transition-duration: .25s;
-  }
-  
-  .plt:hover .menu_card{
-    background-color: #99E2D0;
-  }*/
+    border-radius: 25px 0 0 25px;
+    
+}
 
 
 }
+/*
+
+
 
