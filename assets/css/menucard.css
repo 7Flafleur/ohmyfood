@@ -51,9 +51,27 @@
     
 }
 
-.chkbox{
-    position:relative;
-    top: 20px;
-    right: 25px;
+.tog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 28px;
+    right:35px;
+    height: 25px;
+    width:25px;
+    background-color:white;
+    border-radius: 50px;
+    
+    
 }
 
+.chckbox{
+    height:30px;
+}
+ 
+
+.fa-check{
+    height:100%;
+    width:100%;
+}
