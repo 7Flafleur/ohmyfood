@@ -13,9 +13,6 @@
     width:50%;
 }
 
-.plt:hover .tog{
-    opacity:1;
-}
 
 
 .des{
@@ -43,16 +40,7 @@
     
 }
 
-.tog{
-    display: inline;
-    position: relative;
- /*   right:0;*/
-    bottom: 0;
-    opacity: 0;
 
-    
-
-}
 
     h4{
         display: inline;
@@ -79,10 +67,6 @@
 
       /*Coche menu*/
 
-.tog{
-    display: flex;
-    gap:10px;
-  }
   
     .switch {
       position: relative;
