@@ -193,7 +193,7 @@ main {
 
   .menu_card{
 
-    border: dashed 2px red;
+    /*border: dashed 2px red;*/
     background-color: #fff;
     opacity:1;
     z-index: 1;

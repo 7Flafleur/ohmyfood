@@ -81,6 +81,11 @@ opacity: 0.85;
     padding: 0;
   
   }
+
+  .restoheart{
+    position:absolute;
+    top:10px;
+  }
   
   /*coeur rempli*/
   .filled {
@@ -137,7 +142,7 @@ opacity: 0.85;
 /*Coche menu*/
 .menu_card_container{
     position:relative;
-    border: dotted 2px blue;
+    /*border: dotted 2px blue;*/
     display: flex;
     flex-direction: column;
 

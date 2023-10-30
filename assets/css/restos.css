@@ -169,6 +169,7 @@ span {
   }
 
   .menu{
+    position: relative;
     margin-top: -40px;
     padding-top: 28px;
     margin-bottom: 0px;
@@ -191,6 +192,10 @@ span {
   width:65%;
   
   
+}
+
+.restoheart{
+  position:absolute;
 }
 
 
