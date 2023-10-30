@@ -48,10 +48,14 @@ main {
     height: 50px;
     padding: 13px 16px;
     border: none;
-    background-image: linear-gradient(#ff79da, rgb(147, 86, 220));
+    background-image:linear-gradient(176deg, #FF79DA , #9356DC ) ;
     border-radius: 25px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     color: #fff;
+    transition-property: opacity,box-shadow;
+    transition-duration:0.25s ;
+    transition-timing-function: ease-in-out;
+
     
   }
   

@@ -91,10 +91,12 @@ html {
   /*align-items: flex-end;*/
   justify-content: space-between;
   padding: 15px;
+  width:100%;
   
   border-radius: 25px;
   
   background-color: #fff;
+  transition:width 0.5s ease-in-out;
 }
 
 /*cartes menu*/
