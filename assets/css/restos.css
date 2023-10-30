@@ -150,11 +150,12 @@ span {
 @media screen and (min-width: 1025px) /* and (max-width:1441px)*/ {
 
 
-
+ 
 
   .arrow-left{
     top:45px;
     left:25px;
+    fill: black;
   }
 
   .menu {
