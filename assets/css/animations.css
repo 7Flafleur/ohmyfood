@@ -141,6 +141,7 @@ opacity: 0.85;
     /*border: dotted 2px blue;*/
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -160,7 +161,7 @@ opacity: 0.85;
     width:100%;
     display: inline;
     position: absolute;
-    
+    pointer-events: none;
     
 
 }
