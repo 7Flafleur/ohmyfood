@@ -79,35 +79,41 @@ opacity: 0.85;
 .heart{
     position: relative;
     padding: 0;
+    /*border: solid 1px aquamarine;*/
   
   }
 
-  .restoheart{
-    position:absolute;
-    top:10px;
-  }
+
   
   /*coeur rempli*/
-  .filled {
+
+
+  .heart .filled {
     opacity:0;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
-    transition: opacity 1s ease-in-out; 
+    transition: opacity 0.5s ease-in-out ; 
     width: 22px;
     height: 21px;
-  
     object-fit:scale-down;
-  
   }
+
+  .section_title > .heart .filled {
+   
+    top: 3px;
+
+  }
+
+
+
   
   /*coeur vide*/
   .heart_icon {
     width: 22px;
     height: 21px;
-    
   }
   
   .heart:hover .filled {
@@ -119,11 +125,12 @@ opacity: 0.85;
   
   .heart:hover .heart_icon {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
-  
-  
+    transition: opacity 0.5s ease-in-out;
   }
   
+
+
+
 
 
 /*CARTES MENU*/
