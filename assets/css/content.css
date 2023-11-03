@@ -38,13 +38,13 @@ main {
     padding: 30px 20px 50px 20px;
   }
   
-  .cta h1 {
+  .cta h2 {
     text-align: center;
   }
   
 
   .primarybtn {
-    width: 186px;
+    
     height: 50px;
     padding: 13px 16px;
     border: none;
@@ -55,10 +55,11 @@ main {
     transition-property: opacity,box-shadow;
     transition-duration:0.25s ;
     transition-timing-function: ease-in-out;
-
-    
   }
   
+  .commander{
+    width: 185px;
+  }
   
   
   .section_title {
@@ -269,6 +270,11 @@ main {
 
     }
 
+    .explorer{
+      width:210px;
+
+    }
+
 
     .fonctionnement-btn-container{
       flex-direction: row;
@@ -278,6 +284,9 @@ main {
       width: 100%;
     }
     
+    .fonctionnement p{
+      flex-direction: row;
+    }
 
 
     
@@ -292,7 +301,7 @@ main {
     margin-bottom: -5px;
   }
 
-  .header_logo {
+  .header_logo h1{
     font-size: 38px;
   }
 
@@ -312,7 +321,7 @@ main {
 
   .cta .primarybtn {
     margin-top: 17px;
-    width: 194px;
+    
     font-size: 14px;
     white-space: nowrap;
   }
@@ -320,7 +329,7 @@ main {
   .fonctionnement{
     /*display: block;*/
     
-    padding: 35px 180px 40px 180px ;
+    padding: 35px 180px 40px 175px ;
     align-items: flex-start;
     
   }
@@ -345,7 +354,7 @@ main {
  
 
   .restaurants {
-    padding: 10px 180px 30px 180px;
+    padding: 14px 180px 30px 175px;
     align-items: flex-start;
     width:100%;
   }
@@ -356,7 +365,7 @@ main {
 
   .restaurant_card_container {
     gap:10%;
-    padding: 5px 0 0 0 ;
+    padding: 7px 0 0 0 ;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;

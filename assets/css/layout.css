@@ -7,17 +7,23 @@
 .header {
     background-color: #fff;
     padding: 14px 89px 13px 89px;
+    display: flex;
+    justify-content: center
+    ;
   }
   
-  .header_logo {
+  .header_logo h1{
     font-family: Shrikhand;
     text-align: center;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: inline;
+    
   }
   
+
 
   
 /***********FOOTER****************/

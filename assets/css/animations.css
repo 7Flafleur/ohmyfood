@@ -74,14 +74,6 @@ opacity: 0.85;
 
 /*Fonctionnement*/
 
-.fonctionnement-btn-container p:hover{
-  box-shadow:
-
-  /* 0px 4px 15px 0px #99e2d0;*/
-
-}
-
-
 
 
 
@@ -234,7 +226,6 @@ opacity: 0.85;
   50%{opacity: 0.5;}
   100% { opacity: 1; }
 }
-
 
 
 }

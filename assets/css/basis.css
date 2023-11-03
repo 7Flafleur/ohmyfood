@@ -18,10 +18,9 @@ body {
   margin: auto;
 }
 
-.titre-logo {
+ .header_logo, .titre-logo {
   font-family: Shrikhand;
 }
-
 
 a {
   color: #101010;

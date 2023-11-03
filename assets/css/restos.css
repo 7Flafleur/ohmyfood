@@ -57,7 +57,7 @@ html {
   position: relative;
 }
 
-.section_title h1 {
+.section_title h2 {
   display: inline;
   font-size: 28px;
   font-style: normal;
@@ -191,6 +191,7 @@ span {
 .restoheart{
   position:absolute;
 }
+
 
 
 }
