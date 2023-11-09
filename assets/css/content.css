@@ -225,7 +225,7 @@ main {
 }
 
 
-/*VERSION TABLETTE*/
+/***************************************VERSION TABLETTE******************************************************************/
 @media screen and (min-width:768px){
 
   .fonctionnement-btn-container{
@@ -262,8 +262,27 @@ main {
 
 }
 
+/******************************************************PETITE MODIFICATION POUT TAILLES INTERMEDIAIRES****************************************/
 
- /*VERSION PC*/
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+
+  .fonctionnement {
+    /* display: block; */
+    padding: 35px 140px 40px 140px;
+    
+}
+
+.fonctionnement p{
+  padding: 0 14px 0 20px;
+
+}
+
+
+}
+
+
+
+ /*************************************************************VERSION PC************************************************************************/
   @media screen and (min-width:1025px) {
     .cta{
       padding-top: 70px;
