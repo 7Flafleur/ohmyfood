@@ -1,19 +1,12 @@
 
 
-/******LOADER********/
-
-/*
-<div class="loader">
-<img src="assets/images/plate-and-fork-icon-19.jpg" alt="" />
-</div>
-<!--<div class="loader"><img src="assets/images/plate-and-fork-icon-19.jpg" alt=""></div>-->
-<!--en-tête-->
 
 
 
-*/
 
-@media screen and (min-width:250px) /*and (max-width:768px)*/ {
+@media screen and (min-width:250px) {
+
+  /******LOADER********/
   
 .loader {
     display: flex;
@@ -72,12 +65,10 @@ opacity: 0.85;
 
 }
 
-/*Fonctionnement*/
 
 
 
-
-/************ANIMATION COEUR*/
+/************ANIMATION COEUR***********/
 
 .heart{
     position: relative;
@@ -136,9 +127,11 @@ opacity: 0.85;
 
 
 
-/*CARTES MENU*/
+/***************************CARTES MENU****************************/
 
-/*Coche menu*/
+/*SELECTEUR DE PLATS*/
+
+
 .menu_card_container{
     position:relative;
     /*border: dotted 2px blue;*/
@@ -187,7 +180,7 @@ opacity: 0.85;
 }
 
 
-/*Apparence des menus*/
+/************************************Apparence des menus*************************************/
 
 
   .menu {
@@ -219,6 +212,14 @@ opacity: 0.85;
     animation-delay: 2.5s;
     animation-fill-mode: backwards;
   }
+
+  .commander{
+    animation-duration: 0.75s;
+    animation-name: animate-fade;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+
+  }
    
     
 @keyframes animate-fade {
@@ -230,13 +231,17 @@ opacity: 0.85;
 
 }
 
+/*VERSION TABLETTE*/
+
 @media screen and (min-width:768px){
   .menu_card:hover{
     width:80%;
   }
 }
 
-@media screen and (min-width:1025px) /*and (max-width:1441px)*/ {
+/*VERSION PC*/
+
+@media screen and (min-width:1025px)  {
 
 
   .menu_card:hover {
@@ -247,7 +252,7 @@ opacity: 0.85;
 
 
 }
-/*
+
 
 
 
